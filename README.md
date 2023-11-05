@@ -1,2 +1,2 @@
 # Exercism_solutions
-Solutions for Exercism challanges by me :)
+Solutions for [Exercism](https://exercism.org/) challanges by me :)
