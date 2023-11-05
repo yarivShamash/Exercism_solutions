@@ -1,3 +1,7 @@
 typescript/hello-world/.yarn
+typescript/resistor-color/.yarn
+
 typescript/hello-world/node_modules
+typescript/resistor-color/node_modules
+
 .vscode/settings.json
