@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#4A2403",
+      "titleBar.activeBackground": "#673205",
+      "titleBar.activeForeground": "#FFFAF5"
+    },
+    "jest.disabledWorkspaceFolders": ["pascals-triangle", "pascals-triangle"]
+  }
+}

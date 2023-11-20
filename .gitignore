@@ -1,9 +1,11 @@
 typescript/hello-world/.yarn
 typescript/resistor-color/.yarn
 typescript/matrix/.yarn
+typescript/pascals-triangle/.yarn
 
 typescript/hello-world/node_modules
 typescript/resistor-color/node_modules
 typescript/matrix/node_modules
+typescript/pascals-triangle/node_modules
 
 .vscode/settings.json
