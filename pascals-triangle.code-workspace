@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "typescript"
+    },
+    {
+      "name": "resistor-color",
+      "path": "typescript/resistor-color"
+    },
+    {
+      "name": "pascals-triangle",
+      "path": "typescript/pascals-triangle"
+    },
+    {
+      "name": "hello-world",
+      "path": "typescript/hello-world"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#4D1451",
+      "titleBar.activeBackground": "#6C1C71",
+      "titleBar.activeForeground": "#FDF8FD"
+    },
+    "jest.disabledWorkspaceFolders": ["typescript", "pascals-triangle"]
+  }
+}
