@@ -9,3 +9,4 @@ typescript/matrix/node_modules
 typescript/pascals-triangle/node_modules
 
 .vscode/settings.json
+pascals-triangle.code-workspace
