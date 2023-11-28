@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "name": "matrix",
+      "path": "."
+    },
+    {
+      "name": "resistor-color",
+      "path": "../resistor-color"
+    },
+    {
+      "name": "hello-world",
+      "path": "../hello-world"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#4D1451",
+      "titleBar.activeBackground": "#6C1C71",
+      "titleBar.activeForeground": "#FDF8FD"
+    },
+    "jest.disabledWorkspaceFolders": ["typescript"]
+  }
+}
