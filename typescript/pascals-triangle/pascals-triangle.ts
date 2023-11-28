@@ -14,28 +14,23 @@ export class Triangle {
   constructor(numberOfRows: number) {
     let i = 0
     while (i < numberOfRows) {
-      const prevLine = this.triangle[i] || [1]
-      // go over the items on the prevLine
-      // if the item is the first OR the last number of the array, keep it as it is
-      // else, add the number at the current position to the number in the next position: prevLine[i] + prevLine[i - 1]
+      const prevLine = this.triangle[i - 1] || []
 
       const currentLine = prevLine.map((item, index) => {
         if (index === 0) {
-          return item
+          return 1
         }
         return item + prevLine[index - 1]
       })
 
       this.triangle.push([...currentLine, 1])
+
       i++
     }
+    this.lastRow = this.triangle.at(-1) || [1]
   }
 
-  rows(): number[][] {
-    return this.triangle
-  }
+  rows: number[][] = this.triangle
 
-  lastRow(): number[] {
-    return this.triangle.at(-1) || [1]
-  }
+  lastRow: number[] = this.triangle.at(-1) || [1]
 }
