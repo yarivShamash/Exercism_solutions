@@ -12,12 +12,9 @@ export const COLORS = [
   'violet',
   'grey',
   'white',
-]
+] as const
 
-export const colorCode = (colorName: string): number => {
-  const colorIndex = COLORS.indexOf(colorName)
-  if (colorIndex === -1) {
-    throw new Error(errorMessage)
-  }
-  return colorIndex
-}
+type ColorNames = (typeof COLORS)[number]
+
+export const colorCode = (colorName: ColorNames): number =>
+  COLORS.indexOf(colorName)
